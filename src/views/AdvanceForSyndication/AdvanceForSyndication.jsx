@@ -17,7 +17,7 @@ const AdvanceForSyndication = () => {
 	const [inversors, setInversorsSelected] = useState([]);
 
 	useEffect(() => {
-		fetch('http://demo8670934.mockable.io/products')
+		fetch('https://demo8670934.mockable.io/products')
 			.then(response => response.json())
 			.then(data => setproducts(data))
 	}, [])
