@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'MuseoSans-100';
+	src: local('MuseoSans-100'), url(../fonts/MuseoSans-100.otf) format('opentype');
+}
+@font-face {
+	font-family: 'MuseoSans-300';
+	src: local('MuseoSans-300'), url(../fonts/MuseoSans-300.otf) format('opentype');
+}
+@font-face {
+	font-family: 'MuseoSans-500';
+	src: local('MuseoSans-500'), url(../fonts/MuseoSans-500.otf) format('opentype');
+}
+@font-face {
+	font-family: 'PFBeauSansPro-Light';
+	src: local('PFBeauSansPro-Light'), url(../fonts/PFBeauSansPro-Light.ttf) format('opentype');
+}
+
+.content{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+/* General */
+.flex{
+	display: flex;
+}
+.flex-align-center{
+	align-items: center;
+}
+.flex-justify-content-center{
+	justify-content: center;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+.align-right{
+	text-align: right;
+}

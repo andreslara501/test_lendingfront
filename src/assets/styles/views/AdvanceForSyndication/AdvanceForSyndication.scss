@@ -1,0 +1,143 @@
+/* Colors */
+$second-color: #00CFC9;
+
+#advanceForSyndication{
+	box-shadow: 2px 2px 1px rgba(255,255,255,0.5);
+}
+#advanceForSyndication__contentTitle{
+	background: #00A3AD;
+	#advanceForSyndication__title{
+		height: 183px;
+		padding-top: 39px;
+		h1{
+			font-family: 'PFBeauSansPro-Light';
+			font-weight: normal !important;
+			color: white;
+			font-size: 37px;
+		}
+	}
+}
+
+#advanceForSyndication__panelContent{
+	box-shadow: 0px 2px 5px rgba(40, 40, 40, 0.3);
+	border-radius: 5px;
+	
+	margin-top: -130px;
+	position: relative;
+	#plusButton{
+		background: #FFAD00;
+		width: 70px;
+		height: 70px;
+		border-radius: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0px 1px 3px rgba(40, 40, 40, 0.6);
+		position: absolute;
+		right: 40px;
+		top: -35px;
+		img{
+			width: 19px;
+			height: 19px;
+		}
+	}
+}
+
+#advanceForSyndication__panel{
+	background: #FAFAFA;
+	border-radius: 5px;
+	display: flex;
+	overflow: hidden;
+	#advanceForSyndication__panelColumn1{
+		min-width: 420px;
+		h2{
+			background: #F4F4F4;
+			padding: 10px 30px;
+			font-size: 15px;
+			font-weight: normal;
+			color: #9E9E9E;
+		}
+	}
+	#advanceForSyndication__panelColumn2{
+		width: 100%;
+		box-shadow: 0px -4px 11px rgba(40, 40, 40, 0.8);
+	}
+}
+
+#footer{
+	display: flex;
+	#advanceForSyndication__footerColumn1{
+		min-width: 360px;
+		background: #F4F4F4;
+		box-shadow: inset 0px 3px 7px rgba(40, 40, 40, 0.1);
+		padding: 20px 30px;
+		#buttons{
+			display: flex;
+			gap: 30px;
+			button{
+				width: 50%;
+				border: 0px;
+				padding: 10px 0px;
+				display: flex;
+				justify-content: center;
+				img{
+					width: 17px;
+					height: 17px;
+					margin-right: 10px;
+				}
+			}
+			.close{
+				background: #00A3AD;
+				color: white;
+				border-radius: 50px;
+			}
+			.sell{
+				background: white;
+				color: #00A3AD;
+				border-radius: 50px;
+				box-shadow: 0px 4px 4px rgba(40, 40, 40, 0.1);
+			}
+		}
+	}
+	#advanceForSyndication__footerColumn2{
+		padding: 12px 50px;
+		background: #00A3AD;
+		color: white;
+		width: 100%;
+		font-size: 18px;
+		#bar{
+			background: rgba(255,255,255,0.3);
+			height: 8px;
+			border-radius: 20px;
+			overflow: hidden;
+			margin-top: 5px;
+			#percent{
+				width: 40%;
+				height: 8px;
+				background: white;
+			}
+		}
+		#percents{
+			margin-top:3px;
+			font-size: 12px;
+			display: flex;
+			#end{
+				margin-left: auto;
+			}
+		}
+	}
+}
+
+
+#loading{
+	height: 100px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	img{
+		width: 70px;
+		height: 70px;
+	}
+}

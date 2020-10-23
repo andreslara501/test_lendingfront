@@ -1,0 +1,66 @@
+/* Colors */
+$first-color: #00A3AD;
+$second-color: #00CFC9;
+
+.product{
+	font-family: 'PFBeauSansPro-Light';
+	font-weight: bold;
+	#titleColumn2Product{
+		background: $second-color;
+		h1{
+			padding: 15px 0px;
+			color: white;
+			font-size: 17px;
+			span{
+				border-bottom: 1px solid #78E5E2;
+				padding: 0px 4px 3px 30px;
+			}
+		}
+	}
+	#titlesColumn2ProductTable{
+		background: $second-color;
+		padding: 10px 30px 20px 30px;
+		display: flex;
+		gap: 5px;
+		.title{
+			min-width: calc(100% / 6);
+			color: white;
+		}
+	}
+	.inversor{
+		padding: 20px 30px;
+		display: flex;
+		gap: 5px;
+		align-items: center;
+		color: #7C7C7C;
+		border-bottom: 1px solid #EBEBEB;
+		background: white;
+		transition: all 2s;
+		.col{
+			min-width: calc(100% / 6);
+			.actions{
+				display: none;
+				gap: 20px;
+				justify-content: center;
+				img{
+					display: block;
+					height: 35px;
+					cursor:pointer;
+					transition: all 1s;
+					&:hover{
+						opacity: 0.5;
+					}
+				}
+			}
+		}
+		&:hover{
+			.actions{
+				display: flex;
+			}
+		}
+	}
+}
+
+.align-right{
+	text-align: right;
+}

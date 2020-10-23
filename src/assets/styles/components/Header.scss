@@ -1,0 +1,50 @@
+header{
+	background: #2E2E2E;
+	color: #878787;
+	height: 60px;
+	font-family: 'MuseoSans-500';
+	#logo{
+		height: 50px;
+		margin: 5px 0px;
+	}
+	ul{
+		display: flex;
+		font-weight: bold;
+		li{
+			margin-right: 30px;
+		}
+	}
+	#menu1{
+		margin-left: 50px;
+	}
+	#menu2{
+		margin-left: auto;
+		#user{
+			#triangle{
+				width: 0;
+				height: 0;
+				border-right: 30px solid #F2F2F2;
+				border-top: 30px solid transparent;
+				border-left: 30px solid transparent;
+				border-bottom: 30px solid #F2F2F2;
+		   	}
+		   	#text{
+				background: #F2F2F2;
+				padding: 0px 20px;
+				img{
+					height: 23px;
+					margin-right: 5px;
+				}
+				.triangle_down{
+					width: 0;
+					height: 0;
+					border-left: 6px solid #878787;
+					border-top: 6px solid transparent;
+					border-bottom: 6px solid transparent;
+					transform: rotate(90deg);
+					margin-left: 10px;
+			   }
+			}
+		}
+	}
+}
